@@ -1,11 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { BrowserRouter,Navigate,Route, Routes } from "react-router-dom";
 import './index.css';
+import home from './pages/home/Home'
+
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+    < BrowserRouter>
+       <Routes></Routes>
+    </BrowserRouter>
+ 
   
 
 );
