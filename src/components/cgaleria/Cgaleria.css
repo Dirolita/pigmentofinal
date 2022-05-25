@@ -1,0 +1,253 @@
+header, body, footer{font-family: 'Baloo 2', cursive;}
+.g-h1{
+    color: var(--cafeoscuro-color);
+    font-size: 32pt;
+    text-align: center;
+    margin: 0.3em auto;
+}
+.g-h3 a{
+    text-decoration: none;
+    color: var(--cafeoscuro-color);
+}
+.g-h3-centrado{
+    font-size: 22pt;
+    color: var(--cafeoscuro-color);
+    text-align: center;
+    margin-top: 1em;
+}
+.g-menu{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.g-titulo-sec{
+    background-color:#f9d54463;
+}
+.g-menu h3:hover{
+    background-color:#5a3c2b63;
+}
+.ave-pluma, .caballos-arena, .colibri, .flor-esferos,
+.flor-aguada, .peces-acrilico, .rosas--oleo,
+.manzana-oleo, .manzanas-oleo, .canasta-manzana, .arquitectura-oleo, .cabana, .casa-china, 
+.cielos-oleo, .entrada-oleo,
+.finca-oleo, .rio-oleo, 
+.venecia-oleo,
+.arq-pastel, .tigre, .jarron-rosa, .peces-pastel{
+    width: 98%;
+    cursor:grab;
+    margin: 1rem 1rem;
+}
+
+.g-container{
+    height: auto;
+    width: 80%;
+    justify-content: center;
+        display: grid;
+        align-items: flex-start;
+        grid-template-rows: auto ;
+        margin: 0 auto;
+}
+.g-info-img{
+    width: 98%;
+    cursor:grab;
+    margin: 1rem 1rem; 
+}
+.g-button{
+    cursor:grab;
+    margin: 1rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+/*---------------------------Modal--------------------------------------*/
+.g-modal_picture{
+    display: flex;
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+   /* border: 3px solid green;*/
+}
+.g-cta{
+    margin: 0 0;
+    /*background-image: url(../assets/images/galeria/arq.\ -pastel\ seco\(lapiz\ y\ tiza\).jpeg);*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: auto;
+    color: white;
+    text-decoration: none;
+    
+    border-radius: 0;
+    
+}
+.g-modal{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(96, 96, 87, 0.6);
+    display: flex;
+    --opacity:0;
+    --pointer: none;
+    opacity:var(--opacity);
+    pointer-events: var(--pointer);
+    transition: opacity 0.5s;
+}
+.g-modal:target{
+    --opacity:1;
+    --pointer: unset;
+}
+.g-modalContainer{
+    margin: auto;
+    background-color: #fff;
+    width: 70vh;
+    max-width: 600px;
+    max-width: 90%;
+    overflow: hidden;
+    text-align:center;
+    padding: 1.5rem 2em;
+    border-radius: 1em;
+}
+.g-modalPicture img{
+    width: 100%;
+}
+
+.g-modal:target .g-modal container{
+    animation: show 1s 0.5 backwards
+}
+@keyframes show {
+    0%{transform: translateY(-150px) ;}
+    100%{transform: translateY(0);}
+    
+}
+.g-modalPicture{
+    width: 100%;
+    margin: 0 0;
+    
+}
+.g-modal:target .modalPicture {
+    animation: scale 0.5s 1s backwards
+}
+@keyframes scale {
+    0%{transform: scale(0);}
+    
+}
+.g-modalImg{
+    width: 100%;
+    display: block;
+}
+.g-modalP{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    line-height: 1;
+    font-weight: bold;
+    text-align: center;
+}
+.g-modalP span{
+    font-weight: lighter;
+}
+.g-modalClose{
+    display: inline-block;
+    color: #333;
+    border-radius: 0.4em;
+    border: 1px solid #3333;
+    padding: 8px 8px;
+    text-decoration: none;
+    background-color:var(--amarillo-color);
+    font-weight: 300;
+    color: var(--cafeoscuro-color);
+    border-radius: 0.4em;
+    margin: 0 0.5em;
+    
+}
+.g-closeModal{
+    
+    color: #333;
+    border-radius: 0.4em;
+    display: block;
+    float: right;
+}
+
+/*------------------------------------------------tabletas*/
+@media screen and (min-width:768px){  
+    .g-pics-left{
+        grid-area: g-pics-left;
+        width: 95%;
+        margin: 1em 1em;
+    }
+    .g-pics-right{
+        grid-area: g-pics-right;
+        width: 95%;
+        margin: 1em 1em;
+    }
+    .g-pics-central-a{
+        grid-area: g-pics-central-a;
+        width: 95%;
+        margin: 1em 1em;
+    }
+    .ave-pluma, .caballos-arena, .colibri, .flor-esferos,
+.flor-aguada, .peces-acrilico, .rosas--oleo,
+.manzana-oleo, .manzanas-oleo, .canasta-manzana, .arquitectura-oleo, .cabana, .casa-china, 
+.cielos-oleo, .entrada-oleo,
+.finca-oleo, .rio-oleo, 
+.venecia-oleo,
+.arq-pastel, .tigre, .jarron-rosa, .peces-pastel{
+        align-self: center;
+        width: 100%;
+    }
+    .g-container{
+        justify-content: space-around;
+        height: auto;
+        display: grid;
+        grid-template-columns: 32% 32% 32%;
+        grid-template-rows: auto auto;
+        grid-template-areas: 
+        "g-pics-left g-pics-central-a g-pics-right";
+    }
+    .g-menu{
+        flex-direction: row;
+    }
+.g-info-img{
+    display: none;
+}   
+
+}
+    
+
+    /*media*/
+    @media screen and (min-width:1024px){
+        .g-container{
+            justify-content: space-around;
+        height: auto;
+        display: grid;
+        grid-template-columns: 32% 32% 32%;
+        grid-template-rows: auto auto;
+        grid-template-areas: 
+        "g-pics-left g-pics-central-a g-pics-right";
+        }     
+    }
+
+    /*macro*/
+    @media screen and (min-width:1200px){
+        html{
+            background-color: var(--blanco-color);
+        }
+        .g-container{
+            height: auto;
+            grid-template-columns: 32% 32% 32%;
+        grid-template-rows: auto ;
+            display: grid;            
+            grid-template-areas: 
+            "g-pics-left g-pics-central-a g-pics-right";
+            margin: 0 auto;
+        }  
+        
+        .g-modalPicture{
+            width: 70%;
+            margin: 0 50px;
+            
+        }
+    }

@@ -1,0 +1,164 @@
+
+header, body, footer{font-family: 'Baloo 2', cursive;
+    text-align: center;}
+.p-h1{
+    color: var(--cafeoscuro-color);
+    font-size: 32pt;
+    text-align: center;
+}
+.p-h2{
+    color: var(--cafeoscuro-color);
+    font-size: 28pt;
+    text-align: center;
+    margin: 85px auto;
+    opacity: 0;
+    position: relative;
+    z-index: 1;
+    text-shadow: 2px 2px 3px var(--amarillo-color);
+}
+
+.p-sections{
+    color:var(--cafeoscuro-color);
+    justify-content: center;
+    text-align: center;
+}
+.sec-paints, .sec-spatulas, .sec-brushes, .sec-canvas{
+    border:1px solid rgb(255, 255, 255) ;
+    
+}
+.sec-paints{
+    background-image: url(../chomeproductos/productos/pinturas1.jpg);
+    background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height:auto;
+    cursor:grab;
+    margin: 0 0;
+    padding: 0 0;
+    grid-area: sec-paints; 
+}
+.p-box-paintwork, .p-box-spatula, .p-box-brush, .p-box-canvas{ 
+    width: 98%;
+    max-width: 100%;
+    height:auto;
+    margin: 1em auto ;
+    padding: 0 0;
+    text-decoration: none;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    justify-content: center;
+}
+.p-baner-pint{
+    display: none;
+    background-image: url(../chomeproductos/productos/baner1.png);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.sec-spatulas{
+    background-image: url(../chomeproductos/productos/espatulas\ productos.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:auto;
+    cursor:grab;
+    margin: 0;
+    padding: 0;
+    grid-area: sec-spatulas;
+}
+.sec-brushes{
+    background-image: url(../chomeproductos/productos/pinceles.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:auto;
+    cursor:grab;
+    margin: 0;
+    padding: 0;
+    grid-area: sec-brushes;
+}
+.sec-canvas{
+    background-image: url(../chomeproductos/productos/lienzo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:auto;
+    cursor:grab;
+    margin: 0;
+    padding: 0;
+    grid-area: sec-canvas;
+}
+
+.sec-paints h2, .sec-spatulas h2, .sec-brushes h2, .sec-canvas h2{
+    opacity:1; 
+}
+.sec-paints, .sec-spatulas, .sec-brushes, .sec-canvas{
+    opacity:0.9;  
+    
+}
+.p-sections{
+    display: grid;
+    grid-template-areas: 
+    "sec-paints" 
+    "sec-spatulas"
+    "sec-brushes"
+    "sec-canvas";
+}
+
+
+@media screen and (min-width:768px){
+
+    .p-sections{
+        justify-content: space-around;
+        grid-template-columns: 40% 40% ;
+        display: grid;
+        grid-template-areas: 
+        "sec-paints sec-spatulas"
+        "sec-brushes sec-canvas";
+    }
+    .sec-paints h2, .sec-spatulas h2, .sec-brushes h2, .sec-canvas h2{
+        opacity: 0;
+    }
+    .sec-paints:hover h2, .sec-spatulas:hover h2, .sec-brushes:hover h2, .sec-canvas:hover h2{
+        opacity:1; 
+        
+    }
+    .sec-paints:hover, .sec-spatulas:hover, .sec-brushes:hover, .sec-canvas:hover{
+        opacity:0.9;  
+        
+    }
+    
+    }
+    
+    @media screen and (min-width:1024px){
+        .sec-paints, .sec-spatulas, .sec-brushes, .sec-canvas{
+            width: 100%;
+            
+        }
+        
+        .p-sections{
+            justify-content:space-evenly;
+            grid-template-columns: 25% 25%;
+            display: grid;
+            grid-template-areas: 
+            "sec-paints sec-spatulas"
+            "sec-brushes sec-canvas";
+        }
+        a{
+            width: 100%;
+            height: auto;
+        }
+        
+    }
+    
+    @media screen and (min-width:1200px){
+        html{
+            background-color: #ffffff;
+        }
+        .p-sections{
+            display: grid;
+            grid-template-areas: 
+            "sec-paints sec-spatulas"
+            "sec-brushes sec-canvas";
+        }
+    
+    }
