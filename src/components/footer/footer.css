@@ -1,0 +1,115 @@
+/*------------------FOOTER-----------------------*/
+footer{
+   
+    display: flex;
+     width: 100vw;
+     max-width: 100%;
+     flex-direction: column; 
+     width: max-content;
+     color:var(--cafemasoscuro-color);
+    background:rgb(221, 210, 210);
+     opacity: 80%;
+ }
+ 
+ .footer-op{
+     display: flex;
+     flex-direction: column;
+     width: 100vw;
+     max-width: 100%;
+     background-color: rgba(255,250,250, 70%);
+ }
+ 
+ #footer-con-info{
+     display: flex;
+     flex-direction: column;  
+     align-items: center;
+     margin-bottom: 15px;
+     justify-content: space-evenly;
+     width: 100%;
+ }
+ #footer-con-info h2{
+     margin-block-start:5px;
+     margin-block-end: 5px;
+ }
+ .footer-title{
+     text-decoration: underline 1px #272727;
+ }
+ .footer-info{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+ #footer-form{
+     display: flex;
+     flex-direction: column;
+     height: 50%;
+ }
+ .footer-form-input{
+     padding: 5px;
+     width: 170px;
+     border: 0.5px solid #272727;
+     margin-bottom: 5px;
+ }
+ #footer-con-info h2{
+     font-size: 12px;
+ }
+ #footer-con-info p, li{
+ font-size: 11px;
+ }
+ #footer-con-info a{
+     text-decoration: none;
+     color: var(--cafemasoscuro-color);
+ }
+ .footer-contact-sm {
+     text-align: center;
+ }
+ .btn-enviar{
+     font-family: 'Baloo 2', cursive;
+     font-size:14px ;
+     width: 80px;
+     border: 1px solid var(--cafemasoscuro-color);
+     padding: 2px;
+     font-weight: 300;
+     background-color:var(--amarillo-color);
+     border-radius: 0.4em;
+     margin-left: 40px;
+ }
+ .texta{
+     padding: 5px;
+     font-family:'Baloo 2', cursive; 
+     font-size: 14px;
+ }
+
+ @media screen and (min-width:700px){
+    #footer-con-info{
+        flex-direction: row;  
+        align-items: baseline;
+    }
+    #footer-con-info p, li{
+        font-size: 14px;
+        }
+ }
+ @media screen and (min-width:1000px){
+    #footer-con-info{
+        display: flex;
+        flex-direction:row;  
+        align-items: center;
+    }
+    .footer-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #footer-form{
+        display: flex;
+        flex-direction: column;
+        height: 50%;
+    }
+    #footer-con-info h2{
+        font-size: 16px;
+    }
+    #footer-con-info p, li{
+        font-size: 16px;
+        }
+ }

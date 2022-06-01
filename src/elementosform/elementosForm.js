@@ -79,7 +79,6 @@ padding: 2px 15px;
 display: flex;
 justify-content: center;
 align-items: center;
-display: none;
 h3{
     font-size: 16px;
     margin:0
@@ -141,6 +140,12 @@ input{
 
     margin-right: 10px;
 }
+@media screen and (max-width:500px){
+    h3{
+        grid-column: span 1;
+        
+    }
+}
 `
 const ConBtnC = styled.div
 `
@@ -148,12 +153,18 @@ display: flex;
 flex-direction: column;
 align-items: center;
 grid-column: span 2;
+
+@media screen and (max-width:500px){
+    
+        grid-column: span 1;
+        
+    
+}
 `
 const MsjEx = styled.h3
 `
+font-size: 20px;
 color:${colores.exito}
-display: none;
-opacity: 0;
 `
 export{
     Formulario,

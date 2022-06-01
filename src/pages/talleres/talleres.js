@@ -1,5 +1,6 @@
 import Headernav from '../../components/headernav/Headernav';
 import Ctalleres from '../../components/ctalleres/Ctalleres';
+import Footer from '../../components/footer/Footer';
 
 
 function Talleres(){
@@ -7,6 +8,7 @@ function Talleres(){
         <div>
         <Headernav/>
         <Ctalleres/>
+        <Footer />
 
         </div>
     );
