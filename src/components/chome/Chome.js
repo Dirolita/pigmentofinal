@@ -107,12 +107,13 @@ function Chome(){
         
         <div class="i-index-sec-talleres">
                     <div class="i-img-galeria-one">
+                    <div><h1>Presenciales</h1></div>
                         <div class="contenedor">
                             <figure>
                                 <img src={require("./images/indextarlleres1.png")} />
                                 <div class="capa">
-                                    <h1>Clases Presenciales</h1>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur aperiam dolore obcaecati ipsa explicabo, praesentium.</p>
+                                    <h1>Diferentes Horarios</h1>
+                                    <p>Sabemos que deseas estar en nuestro taller, por eso te facilitamos diferentes horarios.</p>
                                 </div>
                             </figure>
                         </div>
@@ -120,12 +121,15 @@ function Chome(){
           
     
                     <div>
+                    <div><h1>Virtuales</h1></div>
                         <div class="contenedor">
+                        
                             <figure>
+                                
                                 <img src={require("./images/indextalleres2.png")} alt="" />
                                 <div class="capa">
-                                    <h1>Clases Virtuales</h1>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur aperiam dolore.</p>
+                                    <h1>Desde la comodidad de casa</h1>
+                                    <p>No te perderas de ningun detalle con nuestros talleres virtuales.</p>
                                 </div>
                             </figure>
                         </div>

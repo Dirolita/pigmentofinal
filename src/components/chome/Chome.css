@@ -293,8 +293,12 @@ margin-bottom: 15px;
         height: 330px;
     }
     .i-titulo-sec  a, h1{
-        font-size: 32px;
+        font-size: 40px;
+ 
     } 
+    .i-titulo-sec h3{
+        font-size: 28px;
+    }
     .contenedor figure{
         position: relative;
         height: 250px;
@@ -308,16 +312,19 @@ margin-bottom: 15px;
        }
        .contenedor figure .capa p{
            color:var(--cafeoscuro-color);
-           font-size: 15px;
+           font-size: 20px;
        }
        .slide-contenido h1{
         font-size: 30px;
     }
     .slide-contenido p{
-        font-size: 18px;
+        font-size: 20px;
+        font-weight: 700;
     }
     .bullets label{
         padding: 3px;
-        width:8px;
-        height: 8px;}
+        width:15px;
+        height: 15px;}
+
+      
 }

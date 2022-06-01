@@ -2,6 +2,7 @@ import React from 'react';
 import lupa from '../headernav/images/lupa.png';
 import menu from '../headernav/images/menu.png';
 import './header.css';
+import {Link} from 'react-router-dom'; 
 
 function Headernav(){
     return(
@@ -14,10 +15,10 @@ function Headernav(){
         <label for="chk-menu" class="btn-menu">
         <img src={menu}/>
         </label>
-            <li class="item"><a href="index.html">Inicio</a></li>
+            <li class="item"><Link to="/home" >Inicio</Link></li>
             <li class="item"><a href="index.html">Galeria</a></li>
             <li class="item"><a href="index.html">Productos</a></li>
-            <li class="item"><a href="index.html">Talleres</a></li>
+            <li class="item"><Link to="/talleres">Talleres</Link></li>
             <li class="item">
                <select class="tu-cuenta">
                 <option value="0" >Tu Cuenta</option>

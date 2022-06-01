@@ -45,6 +45,7 @@ border-top: none; border-left: none; border-right: none;
 border-bottom: 1px solid var(--cafemasoscuro-color);
 width: 120px;
 
+
 }
 .menu li, input:focus{
     border: none;

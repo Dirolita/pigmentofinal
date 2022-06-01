@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+:root{
+    --negro-color:#191919;
+    --blanco-color:#ffffff;
+    --cafeoscuro-color:#572612;
+    --cafemasoscuro-color:#301309;
+    --amarillo-color: #F9D544; 
+  }
+.t-titulo-tall p{
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+main{
+    background-image: url(./images/fondoform.png);
+    background-size: cover;
+    width: 90%;
+    padding: 40px;
+    margin: 30px auto;
+    
+
+
+   
+}
+@media screen and (min-width:700px){
+.t-titulo-tall  p{
+        font-size: 20px;
+        font-weight: 700;
+    }
+}
+@media screen and (min-width:1000px){
+.t-titulo-tall p{
+        font-size: 23px;
+        font-weight: 700;
+    }
+}
+
