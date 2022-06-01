@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+#box-header{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    justify-content: center;
+    
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.tu-cuenta{
+    font-family: 'Baloo 2', cursive;
+}
+.logo{
+    display: flex;
+    text-align: center;
+    margin: 0px 20px;
+}
+.logo h1{
+    font-family:'Dancing Script', cursive;
+    color: var(--amarillo-color);
+    font-size: 42px;
+    text-shadow: 1px 1px 5px black;
+}
+.menu li{
+
+    list-style: none;
+    display: none;
+}
+.menu a{
+    font-size: 17px;
+    text-decoration: none;
+    color: #301309;
+}
+.menu li, select{
+    border: none;
+    font-size: 20px;
+}
+.menu li input{
+border-top: none; border-left: none; border-right: none;
+border-bottom: 1px solid var(--cafemasoscuro-color);
+width: 120px;
+
+}
+.menu li, input:focus{
+    border: none;
+}
+#chk-menu{
+    display: none;
+}
+#chk-menu:checked ~ .item{
+    display:flex;
+    justify-content:flex-start;
+}
+
+.btn-menu{
+    font-size: 1rem;
+    cursor: pointer;
+}
+@media screen and (min-width:700px)
+{
+    #box-header{
+        grid-template-columns: 30% 70%;
+    }
+    .menu a{
+        font-size: 17px;
+      
+    }
+    .menu{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+    .menu li, select{
+        border: none;
+        font-size: 17px;
+    }
+    .logo h1{
+        font-size: 60px;
+        }
+        .btn-menu{
+            display: none;
+        }
+    .menu li{
+    width: 90vw;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    }
+    .menu li input{
+        width: 180px;
+        font-size: 20px;
+        }
+}
+@media screen and (min-width:1000px){
+    /*------------------HEADER-----------------------*/
+    .menu{margin-right: 20px;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        
+    }
+    .menu li, select{
+       
+        border: none;
+        font-size: 20px;
+    }
+    .menu a{
+        font-size: 20px;
+    }
+    .logo h1{
+        font-size: 80px;
+        }
+    .btn-menu{
+            display: none;
+        }
+    .menu li{
+     width: 100vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+        }
+    
+}    
