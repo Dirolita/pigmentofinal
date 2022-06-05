@@ -1,0 +1,96 @@
+:root{
+    --negro-color:#191919;
+    --blanco-color:#ffffff;
+    --cafeoscuro-color:#572612;
+    --cafemasoscuro-color:#301309;
+    --amarillo-color: #F9D544; 
+ }
+*{    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Baloo 2', cursive;
+}
+.p-container{
+    background-color: #572612;
+    width: 90%;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+    justify-content: center;
+}
+.p-baner-pint{
+    display: none;
+    background-image: url(./banerpinturas2.png);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.p-titulo{
+    color: var(--cafemasoscuro-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+    text-align: center;
+}
+.p-titulo h1{
+    font-size: 25px;
+    color: var(--cafeoscuro-color);
+}
+.p-titulo h3{
+    color: var(--cafeoscuro-color);
+}
+.p-card{
+    width: 20em;
+    padding: 5px;
+    color: var(--negro-color);
+    text-align: center;
+}
+.p-card a:hover{
+color: rgb(102, 102, 102);
+}
+.p-card img{
+    width: 100%;
+}
+
+.p-card-acc{
+    background-color: yellow;
+}
+@media screen and  (min-width: 768px){
+    .p-container{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 1.5rem;
+        justify-content: center;
+        margin-bottom: 1.5rem;
+    }
+    .p-baner-pint{
+        display: block;}
+}
+@media screen and  (min-width: 1000px){
+    .p-container{
+        display: grid;
+        grid-template-columns:auto auto auto ;
+        gap: 5rem;
+        justify-content: center;
+        margin-bottom: 1.5rem;
+    }
+    .p-baner-pint{
+        display: block;
+        height: 300px;
+        width: 100%;
+    }
+    .p-titulo h1{
+        font-size: 35px;
+    }
+    .p-titulo h3{
+        color: var(--cafeoscuro-color);
+        font-size: 25px;
+    }
+    .p-card{
+        width: 25em;}
+}
