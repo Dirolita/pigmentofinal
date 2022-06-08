@@ -82,6 +82,7 @@ align-items: center;
 h3{
     font-size: 16px;
     margin:0
+ 
 }
 img{
     margin-right: 5px;
@@ -100,7 +101,7 @@ const IconoV = styled.img
     `
     width: 22px;
     position: absolute;
-	right: 55px;
+	right: 75px;
 	bottom: 18px;
 	z-index: 100;
     opacity: 0;

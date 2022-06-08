@@ -1,7 +1,13 @@
 import "./Cpinturas.css";
-import img from "./amarillocadmio.png"
+import {getAll} from "./dataProductos"
+import CardProduct from "./cardproducto";
+
 function Cpinturas(){
-    return(<>
+        const productos=getAll();
+    
+
+    return(
+        <div>
         <div class="p-baner-pint">
             
         </div>
@@ -10,15 +16,25 @@ function Cpinturas(){
             <h3>"La alta calidad de nuestro productos permitira que tu trabajo sea muy profesional"</h3>
         </div>
         <section class="p-container">
-        <div class="p-card p-card-acc" id="acc">
-            <img src={img}/>
-            <h2>AMARILLO CADMIO CLARO</h2>
-            <p>ACRILICO 140ML AMARILLO CADMIO CLARO 14204</p>
-            <button>Añadir al carrito</button>
-        </div>
+            {
+            productos.map(p=>(
+                    <CardProduct
+                    key={p.id}
+                    p1={p.id}
+                    p2={p.image}
+                    p3={p.title}
+                    p4={p.descip}
+                    p5={p.color}
+                    p6={p.price}
+                    />
+                ))
+                }
+
         
+
         
         </section>
-    </>);
+        </div>
+    )
 }
 export default Cpinturas;

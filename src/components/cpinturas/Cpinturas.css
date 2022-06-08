@@ -12,8 +12,16 @@
 body{
     font-family: 'Baloo 2', cursive;
 }
+.btn-primary{
+    background-color: var(--amarillo-color) !important;
+}
+.btn{
+    border: none !important;
+    color: var(--cafemasoscuro-color) !important;
+    padding: 3px 10px !important;
+}
 .p-container{
-    background-color: #572612;
+    
     width: 90%;
     margin: 10px auto;
     display: grid;
@@ -28,6 +36,14 @@ body{
     background-size: cover;
     height: 100%;
     width: 100%;
+}
+.p-baner-lienzos{
+    display: none;
+    background-image: url(../clienzos/banerlienzos.png);
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+
 }
 .p-titulo{
     color: var(--cafemasoscuro-color);
@@ -48,18 +64,85 @@ body{
     width: 20em;
     padding: 5px;
     color: var(--negro-color);
+    
     text-align: center;
+    color: var(--cafeoscuro-color) ;
 }
-.p-card a:hover{
-color: rgb(102, 102, 102);
+
+[id="1"]{
+    background-color: #eff31a;
+}
+
+[id="2"]{
+    background-color: #D18C00;
+}
+[id="3"]{
+    background-color: #031b79;
+    color: #ffffff;
+}
+[id="4"]{
+    background-color:  #020135;
+    color: #ffffff;
+}
+
+[id="5"]{
+    background-color:  #f7eff3;
+    color: var(--cafemasoscuro-color);
+}
+[id="6"]{
+    background-color:  #6E1241;
+    color: #ffffff;
+}
+[id="7"]{
+    background-color:  #BF550B;
+    color: #ffffff;
+}
+[id="8"]{
+    background-color:  #000000;
+    color: #ffffff;
+}
+[id="9"]{
+    background-color:  #6E1241;
+    color: #ffffff;
+}
+[id="9"]{
+    background-color: #B38E2B;
+    color: #ffffff;
+}
+[id="10"]{
+    background-color: rgb(168, 166, 166);
+    color: #ffffff;
+}
+[id="11"]{
+    background-color:  rgb(168, 0, 0);
+    color: #ffffff;
+}
+[id="12"]{
+    background-color: #502200;;
+    color: #ffffff;
+}
+[id="13"]{
+    background-color:  #55943F;
+    color: #ffffff;
+}
+[id="14"]{
+    background-color:  #380025;
+    color: #ffffff;
+}
+[id="15"]{
+    background-color: #1d0113;
+    color: #ffffff;
+}
+.p-card p{
+font-size: 20px;
 }
 .p-card img{
     width: 100%;
 }
 
-.p-card-acc{
-    background-color: yellow;
-}
+
+
+
 @media screen and  (min-width: 768px){
     .p-container{
         display: grid;
@@ -70,6 +153,10 @@ color: rgb(102, 102, 102);
     }
     .p-baner-pint{
         display: block;}
+
+    .p-baner-lienzos{
+            display: block;
+        }
 }
 @media screen and  (min-width: 1000px){
     .p-container{
@@ -83,6 +170,9 @@ color: rgb(102, 102, 102);
         display: block;
         height: 300px;
         width: 100%;
+    }
+    .p-baner-lienzos{
+        display: block;
     }
     .p-titulo h1{
         font-size: 35px;
