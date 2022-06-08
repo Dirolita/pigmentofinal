@@ -7,7 +7,7 @@ function CardEspatula(props){
   
 return(
   <div>
-    <div className="p-card" id={props.p1}>
+    <div className="p-card-espatulas" >
     <img src={props.p2}/>
     <h2>{props.p3}</h2>
     <p>{props.p4}</p>

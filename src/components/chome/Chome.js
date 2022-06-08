@@ -1,5 +1,5 @@
 import "../chome/Chome.css";
-
+import {Link} from  'react-router-dom'; 
 
 function Chome(){
     return(
@@ -58,7 +58,7 @@ function Chome(){
     
         <section>
         <div class="i-titulo-sec">
-            <h1><a href="src/pages/galeria.html">Galeria</a></h1>
+            <h1><a href="#">Galeria</a></h1>
             <h3>"Añade color y arte a tu vida"</h3>
         </div>
         
@@ -80,7 +80,7 @@ function Chome(){
     
     <section>
         <div class="i-titulo-sec">
-            <h1><a href="src/pages/productos/productos.html">Productos</a></h1>
+            <h1><Link to="/productos" className="link">Productos</Link></h1>
             <h3>"Un buen artista siempre usa las mejores herramientas"</h3>
         </div>
         
@@ -101,7 +101,7 @@ function Chome(){
     
     <section>
         <div class="i-titulo-sec">
-            <h1><a href="src/pages/talleres.html">Talleres</a></h1>
+            <h1><Link to="/talleres">Talleres</Link></h1>
             <h3>"El aprendizaje continuo es el camino al éxito"</h3>
         </div>
         
