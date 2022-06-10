@@ -1,14 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Cgaleria from "./components/cgaleria/Cgaleria";
-
+import { BrowserRouter,Navigate,Route, Routes } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   
-<React.StrictMode>
-   <Cgaleria /> 
-  </React.StrictMode>
+< BrowserRouter>
+  <Routes>
+    
+  </Routes>
+</BrowserRouter>
 );
 
