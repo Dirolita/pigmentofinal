@@ -1,0 +1,145 @@
+html{font-family: 'Baloo 2', cursive;}
+.g-h1{
+    color: var(--cafeoscuro-color);
+    font-size: 32pt;
+    text-align: center;
+    margin: 0.3em auto;
+}
+h3{
+    text-align: none;
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.g-h3 a{
+    text-decoration: none;
+    color: var(--cafeoscuro-color);
+}
+.g-h3-centrado{
+    font-size: 22pt;
+    color: var(--cafeoscuro-color);
+    text-align: center;
+    margin-top: 1em;
+}
+.g-menu{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.g-menu h3{
+  padding: 1em 1em 1em 1em;  
+}
+.g-titulo-sec{
+    background-color:#f9d54463;
+}
+.g-menu h3:hover{
+    background-color:#5a3c2b63;
+    color: var(--cafeoscuro-color);
+   
+}
+.g-card{
+    width: 20em;
+    padding: 5px;
+    color: var(--negro-color);
+    text-align: center;
+    color: var(--cafeoscuro-color) ;
+}
+.g-card p{
+    font-size: 20px;
+    }
+.g-card img{
+    width: 100%;
+}
+.g-container{
+    width: 90%;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+    justify-content: center;
+}
+.g-info-img{
+    width: 98%;
+    cursor:grab;
+    margin: 1rem 1rem; 
+}
+.g-button{
+    cursor:grab;
+    margin: 1rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.btn-primary{
+    background-color: var(--amarillo-color) !important;
+}
+.btn{
+    border: none !important;
+    color: var(--cafemasoscuro-color) !important;
+    padding: 3px 10px !important;
+}
+
+/*---------------------------Modal--------------------------------------*/
+.g-modal_picture{
+    display: flex;
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+   /* border: 3px solid green;*/
+}
+
+.g-modalP{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    line-height: 1;
+    font-weight: bold;
+    text-align: center;
+}
+.g-modalP span{
+    font-weight: lighter;
+}
+
+
+/*------------------------------------------------tabletas*/
+@media screen and (min-width:768px){  
+   
+    .g-container{
+        display: grid;
+        grid-template-columns:auto auto auto ;
+        gap: 3rem;
+        justify-content: center;
+        margin-bottom: 1.5rem;
+    }
+    .g-menu{
+        flex-direction: row;
+    }
+.g-info-img{
+    display: none;
+}   
+
+}
+    
+
+    /*media*/
+    @media screen and (min-width:1024px){
+        
+        .g-card{
+            width: 25em;}    
+    }
+
+    /*macro*/
+    @media screen and (min-width:1200px){
+        html{
+            background-color: var(--blanco-color);
+        }
+       
+       
+    }
