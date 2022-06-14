@@ -1,6 +1,7 @@
-import "../cpinturas/Cpinturas.css";
+
 import { getLienzos } from "./dataLienzos";
 import Cardlienzos from "./cardlienzos";
+import "./lienzos.css"
 
 function Clienzos(){
     const lienzos=getLienzos();
@@ -25,6 +26,7 @@ return(
                 p3={p.title}
                 p4={p.descip}
                 p5={p.color}
+                p6={p.price}
                 />
             ))
             }

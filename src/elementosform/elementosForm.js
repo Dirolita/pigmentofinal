@@ -8,13 +8,16 @@ exito: "#1ed12d"
 const Formulario =styled.form
 `
 display:grid;
-grid-template-columns:1fr 1fr;
+grid-template-columns:auto auto;
 padding:20px;
-gap:20px
-@media screen and (max-width:700px){
-    grid-template-columns:1fr;
+gap:20px;
+
+@media screen and (max-width:500px){
+    grid-template-columns:auto;
 }
+
 `
+
 ;
 const Input= styled.input
 `
@@ -52,10 +55,11 @@ z-index: 90;
 `
 const LeyendaError = styled.p
 `
-font-size: 15px;
+font-size: 18px;
 margin-bottom: 0;
 color:${colores.error} ;
 display: none;
+font-weight: 700;
 
 ${props=> props.valido === 'true' && css 
 `

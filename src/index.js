@@ -10,6 +10,7 @@ import Lienzo from './pages/productos/lienzos';
 import * as bootstrap from 'bootstrap';
 import ProductosIndex from './pages/productos/productosIndex';
 import Espatulas from './pages/productos/espatulas';
+import Brochas from './pages/productos/brochas';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -23,6 +24,7 @@ root.render(
             <Route path='/home' element={<Home />}></Route>
             <Route path='/talleres' element={<Talleres />}></Route>
             <Route path='/productos/pinturas' element={<Pinturas />}></Route>
+            <Route path='/productos/brochas' element={<Brochas/>}></Route>
             <Route path='/productos/lienzos' element={<Lienzo />}></Route>
             <Route path='/productos/espatulas' element={<Espatulas />}></Route>
             <Route path='/productos' element={<ProductosIndex />}></Route>

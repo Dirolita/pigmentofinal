@@ -24,7 +24,7 @@ function CproductosIndex(){
                 </div>
                 </Link>
 
-                <Link to='/productos/pinceles' className='link'>
+                <Link to='/productos/brochas' className='link'>
                 <div class="p-box-brush">
                     <article class="sec-brushes">
                         <h2 class="p-h2">Pinceles y brochas</h2>
@@ -32,8 +32,8 @@ function CproductosIndex(){
                 </div>
                 </Link>
                 
-                <Link to='/productos/espatulas' className='link'>
-                <div class="p-box-canvas" href="../productos/lienzos.html">
+                <Link to='/productos/lienzos' className='link'>
+                <div class="p-box-canvas">
                     <article class="sec-canvas">
                         <h2 class="p-h2">Lienzos</h2>
                     </article>

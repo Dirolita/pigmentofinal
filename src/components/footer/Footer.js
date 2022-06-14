@@ -12,7 +12,10 @@ function Footer(){
 
             <section id="footer-con-info">
                 <article class="footer-info">
-                    <h2 class="footer-title">CUENTA</h2>
+                    <div className='t-fo-1'>
+                    <img src={require("./images/user-account-solid-24.png")}/>
+                        <h2 class="footer-title">CUENTA</h2>
+                        </div>
                     <ul>
                         <li><a href="#">Mi cuenta</a></li>
                         <li><a href="#">Registrate</a></li>
@@ -21,7 +24,11 @@ function Footer(){
                 </article>
 
                 <article class="footer-info">
+                <div className='t-fo-1'>
+                <img src={require("./images/mail-send-regular-24.png")}/>
                     <h2 class="footer-title">ENVIOS</h2>
+                    
+                </div>
                     <ul>
                         <li>Bogota</li>
                         <li>Pereira</li>
@@ -29,15 +36,24 @@ function Footer(){
                     </ul>
                 </article>
                 <article class="footer-info">
+                <div className='t-fo-1'>
+                <img src={require("./images/contact-solid-24.png")}/>
                     <h2 class="footer-title">CONTACTO</h2>
+                </div>
                     <div class="footer-contact-sm">
+
                         <p>+57 310 562 31 20</p>
                         <p>+57 305 767 60 63</p>
                         <p>emprearte@gmail.com</p>
+                        <div className='iconos'>
+                            <img src={require("./images/facebook-circle-logo-24.png")}/>
+                            <img src={require("./images/pinterest-alt-logo-24.png")}/>
+                            <img src={require("./images/instagram-alt-logo-24.png")}/>
+                        </div>
                     </div>
                 </article>
                 <article class="footer-info">
-                    <h2 class="footer-title">CONTACTANOS</h2>
+                <div className='t-fo-1'> <h2 class="footer-title">CONTACTANOS</h2></div>
                     <form id="footer-form">
                         <input class="footer-form-input" type="email" placeholder="correo electronico" />
                         <textarea class="texta" name="mensaje" placeholder="Escribe aqui tu mensaje"></textarea><br/>

@@ -1,11 +1,11 @@
-import "./lienzos.css"
-import ModalLienzos from "./modalLienzos";
+import "./cbrochas.css";
+import ModalBrochas from "./modalBrochas";
 
-function Cardlienzos(props){
-  
-return(
-    <div>
-    <div className="cardlienzo" >
+
+function CardBrochas(props){
+    return(
+<div>
+    <div className="brochas" id={props.p1}>
     <img src={props.p2}/>
     <h2>{props.p3}</h2>
     <p>{props.p4}</p>
@@ -14,7 +14,7 @@ return(
 </button>
 </div>
 <div>
-<ModalLienzos
+<ModalBrochas
       pm1={`id${props.p1}`}
         pm2={props.p2}
         pm3={props.p3}
@@ -26,7 +26,6 @@ return(
 />
 </div>
 </div>  
-
-);
+    );
 }
-export default Cardlienzos;
+export default CardBrochas;

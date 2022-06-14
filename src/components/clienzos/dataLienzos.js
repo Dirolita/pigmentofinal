@@ -1,128 +1,81 @@
 let lienzos=[
     {
         "id": 1,
-        "title": "PINCEL PROFESIONAL MARKART",
-        "descip":"SET 23 PINCEL PROFESIONAL MARKART 15204",
-        "price": 125000,
-        "image":"https://raw.githubusercontent.com/Dirolita/Pigmento/test/src/assets/images/subproductos/pinturas/amarilcadmioclaro.png",
+        "title": "LIENZO MARKART ",
+        "descip":"MEDIDAS 25CM X 16CM",
+        "price":16000,
+        "image":"https://dirolita.github.io/Pigmento/src/assets/images/subproductos/lienzos/lienzo25x35_16mil.png",
     },
     {
         "id": 2,
-        "title": "PINCEL DE MADERA",
-        "descip":"SET 9 PINCEL DE MADERA 15205",
+        "title": "LIENZO D.ARTE, ",
+        "descip":"MEDIDAS 20CM X 30 CM",
         "price": 25000,
-        "image":"https://github.com/Dirolita/Pigmento/blob/test/src/assets/images/subproductos/pinturas/amarillocadmio.png?raw=true",
+        "image":"https://dirolita.github.io/Pigmento/src/assets/images/subproductos/lienzos/lienzo20x20x3un_40.png",
 
       },
       {
         "id": 3,
-        "title": "PINCEL DE CILICIO",
-        "descip":"SET 5 PINCEL DE CILICIO 15206",
-        "price": 15000,
+        "title": "LIENZO PROFESIONAL MARKART,",
+        "descip":"MEDIDAS 50CM X 70 CM",
+        "price": 42000,
         "color":"#D18C00",
-        "image":"https://github.com/Dirolita/Pigmento/blob/test/src/assets/images/subproductos/pinturas/azulcobal.png?raw=true",
+        "image":"https://dirolita.github.io/Pigmento/src/assets/images/subproductos/lienzos/lienzo50x70_42mil.png",
 
       },
       {
         "id": 4,
-        "title": "l4",
-        "descip":"ACRILICO 140ML AZUL THALO 14206",
-        "price": 15000,
+        "title": "LIENZO CON CABALLETE ARTEMAX,",
+        "descip":"MEDIDAS 15CM X 15 CM",
+        "price": 18000 ,
         "color":"#BF550B",
-        "image": "https://github.com/Dirolita/Pigmento/blob/test/src/assets/images/subproductos/pinturas/azulthalo.png?raw=true",
+        "image": "https://dirolita.github.io/Pigmento/src/assets/images/subproductos/lienzos/lienzoscaballete_18.png",
  
       
       },
       {
         "id": 5,
-        "title": " BLANCO TITANEO ",
-        "descip":"ACRILICO 140ML BLANCO TITANEO 14207",
-        "price": 15000,
+        "title": "MINI LIENZOS X 10 ARTEMAX ",
+        "descip":"MEDIDAS 15CM X 15 CM,",
+        "price": 25000,
         "color":"#BF550B",
-        "image":"https://github.com/Dirolita/Pigmento/blob/test/src/assets/images/subproductos/pinturas/blancoti.png?raw=true" ,
+        "image":"https://dirolita.github.io/Pigmento/src/assets/images/subproductos/lienzos/minilienzosx10.png" ,
  
       },
       {
         "id": 6,
-        "title": " MAGENTA",
-        "descip":"ACRILICO 140ML MAGENTA 14208",
-        "price": 15000,
+        "title": "LIENZO BOTTERO",
+        "descip":"MEDIDAS 70CM X 30CM",
+        "price":30000,
         "color":"##BF550B",
-        "image": "https://github.com/Dirolita/Pigmento/blob/test/src/assets/images/subproductos/pinturas/magenta.png?raw=true",
+        "image": "https://dirolita.github.io/Pigmento/src/assets/images/subproductos/lienzos/30x70_34mil.png",
    
       },
       {
         "id": 7,
-        "title": "NARANJA CADMIO",
-        "descip":"ACRILICO 140ML NARANJA CADMIO 14209",
-        "price": 15000,
-        "image":"https://github.com/Dirolita/Pigmento/blob/test/src/assets/images/subproductos/pinturas/naranjacadmio.png?raw=true",
+        "title": "KIT LIENZOS ATERMAX",
+        "descip":"MEDIDAS SURTIDAS X 6",
+        "price": 42000,
+        "image":"https://dirolita.github.io/Pigmento/src/assets/images/subproductos/lienzos/30x70_34mil.png",
 
       },
       {
         "id": 8,
-        "title": "NEGRO CARBON",
-        "descip":"ACRILICO 140ML NEGRO CARBON 14210",
-        "price": 12000,
-        "image": "https://github.com/Dirolita/Pigmento/blob/test/src/assets/images/subproductos/pinturas/negro.png?raw=true",
+        "title": "LIENZO PEQUEÑO BOTTERO",
+        "descip":"MEDIDAS 15CM X 15CM",
+        "price": 9000,
+        "image": "https://dirolita.github.io/Pigmento/src/assets/images/subproductos/lienzos/lienzo15x15_9mil.png",
   
       },
       {
         "id": 9,
-        "title": "ORO",
-        "descip":"ACRILICO 140ML ORO 14211",
-        "price": 18000,
-        "image": "https://github.com/Dirolita/Pigmento/blob/test/src/assets/images/subproductos/pinturas/oro.png?raw=true",
+        "title": "LIENZO PROFESIONAL MARKART ",
+        "descip":"MEDIDAS 60CM X 80CM",
+        "price": 42000,
+        "image": "https://dirolita.github.io/Pigmento/src/assets/images/subproductos//lienzos/lienzo50x70_42mil.png",
         
-      },
-      {
-        "id": 10,
-        "title": "PLATA",
-        "descip":"ACRILICO 140ML PLATA 14212",
-        "price": 18000,
-        "image": "https://github.com/Dirolita/Pigmento/blob/test/src/assets/images/subproductos/pinturas/plata.png?raw=true",
-
-      },
-      {
-        "id": 11,
-        "title": "ROJO BERMELLOS",
-        "descip":"ACRILICO 140ML ROJO BERMELLOS 14213",
-        "price": 15000,
-        "image": "https://github.com/Dirolita/Pigmento/blob/test/src/assets/images/subproductos/pinturas/rojobermellon.png?raw=true",
-  
-      },
-      {
-        "id": 12,
-        "title": "SIENA TOSTADA",
-        "descip":"ACRILICO 140ML SIENA TOSTADA 14213",
-        "price": 15000,
-        "image": "https://github.com/Dirolita/Pigmento/blob/test/src/assets/images/subproductos/pinturas/sienatostada.png?raw=true",
-
-      },
-      {
-        "id": 13,
-        "title": "VERDE CLARO",
-        "descip":"ACRILICO 140ML VERDE CLARO 14214",
-        "price": 15000,
-        "image":"https://github.com/Dirolita/Pigmento/blob/test/src/assets/images/subproductos/pinturas/verdeclaro.png?raw=true",
-
-      },
-      {
-        "id": 14,
-        "title": "VIOLETA COBALTO",
-        "descip":"ACRILICO 140ML VIOLETA COBALTO 14216",
-        "price": 15.000,
-        "image": "https://github.com/Dirolita/Pigmento/blob/test/src/assets/images/subproductos/pinturas/violetacobalto.png?raw=true",
-       
-      },
-      {
-        "id": 15,
-        "title": "VIOLETA ",
-        "descip":"ACRILICO 140ML VIOLETA 14217",
-        "price": 15.000,
-        "image": "https://github.com/Dirolita/Pigmento/blob/test/src/assets/images/subproductos/pinturas/violeta.png?raw=true",
-       
-      },
+      }
+      
 ]
 export function getLienzos(){
     return lienzos; 

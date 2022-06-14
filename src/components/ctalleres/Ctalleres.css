@@ -12,30 +12,72 @@
     font-size: 16px;
     font-weight: 600;
     text-align: center;
+    color: #ffffff;
 }
-h1{
-    text-align: center;
-}
+
 main{
-    background-image: url(./images/fondoform.png);
+    background-image: url(./talleresimgnes.png);
     background-size: cover;
-    width: 90%;
+    width: 97%;
     padding: 40px;
     margin: 30px auto;
-    
-
-
-   
+  
 }
+main h1{
+    text-align: center;
+    color: var(--cafemasoscuro-color);
+    font-size: 50px;
+    font-weight: 700;
+
+}
+.inputs{
+    display: grid;
+    grid-template-columns: auto;
+    width: 80vw;
+  
+}
+
+.inte-moda{
+    margin: 12px auto;
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    font-weight: 700;
+    color:#301309;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    grid-column: span 2;
+    text-align: center;
+   
+   
+
+}
+.t-titulo-tall  p{
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    
+    color: var(--cafemasoscuro-color);
+    border-radius: 25px;
+}
+
 @media screen and (min-width:700px){
 .t-titulo-tall  p{
         font-size: 20px;
         font-weight: 700;
+        font-size: 25px;
+    }
+    .inputs{
+        display: grid;
+        grid-template-columns: auto auto;
+        width: 80vw;
+      
     }
 }
 @media screen and (min-width:1000px){
 .t-titulo-tall p{
-        font-size: 23px;
+        font-size: 20px;
         font-weight: 700;
     }
 }

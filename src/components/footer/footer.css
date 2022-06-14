@@ -54,14 +54,20 @@ footer{
      font-size: 12px;
  }
  #footer-con-info p, li{
- font-size: 11px;
+ font-size: 16px;
+ font-weight: 600;
+
  }
  #footer-con-info a{
      text-decoration: none;
      color: var(--cafemasoscuro-color);
+   
  }
  .footer-contact-sm {
      text-align: center;
+ }
+ .footer-contact-sm p{
+     margin: 0;
  }
  .btn-enviar{
      font-family: 'Baloo 2', cursive;
@@ -79,6 +85,24 @@ footer{
      font-family:'Baloo 2', cursive; 
      font-size: 14px;
  }
+ .iconos{
+     display: flex;
+     margin-top: 10px;
+     justify-content: space-around;
+ }
+ .t-fo-1{
+     display: flex;
+     font-weight: 900;
+ }
+ .t-fo-1 img{
+     margin-right: 5px;
+ }
+ .t-fo-1 h2{
+     text-decoration: none;
+     font-weight: 700;
+     
+ }
+
 
  @media screen and (min-width:700px){
     #footer-con-info{
@@ -86,7 +110,7 @@ footer{
         align-items: baseline;
     }
     #footer-con-info p, li{
-        font-size: 14px;
+        font-size: 16px;
         }
  }
  @media screen and (min-width:1000px){
@@ -110,6 +134,7 @@ footer{
         font-size: 16px;
     }
     #footer-con-info p, li{
-        font-size: 16px;
+        font-size: 20px;
+        font-weight: 400;
         }
  }

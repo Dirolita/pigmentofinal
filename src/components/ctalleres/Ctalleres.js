@@ -73,7 +73,7 @@ const onSumit=(e)=>{
                 <p>Diligencia el siguiente formulario, y te estaremos enviando información a tu correo y/o WhatsdApp</p>
             </div>
             <Formulario action="" onSubmit={onSumit}>
-
+                  <div className="inputs">
                    <Coinput 
                    tipo="texto"
                    placeholder="NOMBRE"
@@ -115,6 +115,21 @@ const onSumit=(e)=>{
                    cambiarEstado={cambiarCorreo}
                    
                    />
+                   </div>
+                   <div className="inte-moda">
+                    <div class="t-check-s">
+                        <label for="deporte">Intereses:</label><br />
+                        <input name="deporte" id="deporte" type="checkbox" />Dibujo Artistico
+                        <input name="deporte" id="deporte" type="checkbox" />Arte con acuarelas
+                        <input name="deporte" id="deporte" type="checkbox" />Pintura al óleo
+                    </div><br />
+
+                    <div class="t-check-s">
+                        <label for="deporte">Modalidad:</label><br />
+                        <input name="deporte" id="deporte" type="checkbox" />Presencial
+                        <input name="deporte" id="deporte" type="checkbox" />Virtual
+                    </div>
+                    </div>
 
                     <ConTerminos>
                         <label>
@@ -122,6 +137,7 @@ const onSumit=(e)=>{
                         Acepto recibir la informacion a mi correo y/o WhatsdApp
                         </label>
                     </ConTerminos>
+
                     {frmValido === false && <MsjErr>
                         <h3><img src={require("./images/error.ico")} />
                             <b>Error: </b>Por favor rellene el formulario correctamente</h3>
