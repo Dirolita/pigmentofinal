@@ -12,7 +12,8 @@ import ProductosIndex from './pages/productos/productosIndex';
 import Espatulas from './pages/productos/espatulas';
 import Brochas from './pages/productos/brochas';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import Galeria from './pages/galeria/galeria';
+import PaRegistro from './pages/registro/Registro';
 
 
 
@@ -28,6 +29,8 @@ root.render(
             <Route path='/productos/lienzos' element={<Lienzo />}></Route>
             <Route path='/productos/espatulas' element={<Espatulas />}></Route>
             <Route path='/productos' element={<ProductosIndex />}></Route>
+            <Route path='/galeria' element={<Galeria />}></Route>
+            <Route path='/registro' element={<PaRegistro />}></Route>
         </Routes>
     </BrowserRouter>
     
