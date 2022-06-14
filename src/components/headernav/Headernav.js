@@ -16,13 +16,13 @@ function Headernav(){
         <img src={menu}/>
         </label>
             <li class="item"><Link to="/home" >Inicio</Link></li>
-            <li class="item"><a href="index.html">Galeria</a></li>
+            <li class="item"><Link to="/galeria">Galeria</Link></li>
             <li class="item"><Link to="/productos">Productos</Link></li>
             <li class="item"><Link to="/talleres">Talleres</Link></li>
             <li class="item">
                <select class="tu-cuenta">
                 <option value="0" >Tu Cuenta</option>
-                <option value="1" >Crear Cuenta</option></select>
+                <option value="1" ><Link to="/registro">Crear Cuenta</Link></option></select>
                 </li>
             <li class="item"><input  type="text" placeholder="Buscar"/><img src={lupa}/></li>
       
