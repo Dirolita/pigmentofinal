@@ -18,6 +18,12 @@ import HomeCrud from './pages/HomeCrud/HomeCrud';
 import VistaCrud from './pages/HomeCrud/vistaCrudTabla';
 import FormProductos from './pages/HomeCrud/formularioIngreso';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import FormLogin from './pages/FormLogin/FormLogin';
+import RCompra from './pages/RCompras/RCompra';
+import Dashboard from './pages/Dashboard/Dashboard';
+import Cvacio from './pages/CVacio/CVacio';
+import Compra from './pages/Compras/Compra';
+
 
 
 
@@ -38,6 +44,11 @@ root.render(
             <Route path='/crud' element={<HomeCrud />}></Route>
             <Route path='/crud/vista' element={<VistaCrud />}></Route>
             <Route path='crud/new' element={<FormProductos />}></Route>
+            <Route path='/login' element={<FormLogin/>}> </Route>
+            <Route path='/resucompra' element={<RCompra/>}> </Route>
+            <Route path='/dashboard' element={<Dashboard/>}> </Route>
+            <Route path='/vacio' element={<Cvacio/>}> </Route>
+            <Route path='/carrito' element={<Compra/>}> </Route>
         </Routes>
     </BrowserRouter>
     

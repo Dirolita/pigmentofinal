@@ -21,7 +21,7 @@ function Headernav(){
             <li class="item"><Link to="/productos">Productos</Link></li>
             <li class="item"><Link to="/talleres">Talleres</Link></li>
             <li class="item"><Link to="/registro">Registrate</Link></li>
-            <li class="item"><Link to="/registro">Login</Link></li>
+            <li class="item"><Link to="/login">Login</Link></li>
             <li class="item"><Link to="/crud"><img src={Cuenta}/></Link></li>
               
           

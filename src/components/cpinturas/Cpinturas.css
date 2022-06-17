@@ -133,6 +133,14 @@ body{
     background-color: #1d0113;
     color: #ffffff;
 }
+[id="16"]{
+    background-color: #DBB680;
+    color: var(--cafemasoscuro-color)
+}
+[id="17"]{
+    background-color: #DBB680;
+    color:var(--cafemasoscuro-color);
+}
 .p-card p{
 font-size: 20px;
 }

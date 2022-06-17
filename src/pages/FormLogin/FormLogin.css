@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+*{
+  box-sizing: border-box;
+  font-family: 'Baloo 2', cursive;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Baloo 2', cursive;
+}
+
+.login-fondo{
+  background-image: url("../../components/img/fondo.jpeg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100vh;
+  font-family: 'Baloo 2', cursive;
+}
+
+.continue{
+  color: #301309;
+  align-items: center;
+}
+
+.link{
+  text-decoration: none;
+}
