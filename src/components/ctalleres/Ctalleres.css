@@ -39,7 +39,7 @@ main h1{
 .pri-sec-tit h2{
     color: var(--cafeoscuro-color);
     font-family: 'Dancing Script', cursive;
-    font-size: 50px;
+    font-size: 30px;
     background-color: #F9D544;
     padding: 10px;
 }
@@ -62,7 +62,7 @@ main h1{
 .t-titulo-tall  p{
     padding: 20px;
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 600;
     
     color: var(--cafemasoscuro-color);
     border-radius: 25px;
@@ -74,6 +74,11 @@ main h1{
     margin-bottom: 40px;
     
 }
+.pri-sec-tit h3{
+    color:var(--cafemasoscuro-color);
+    font-size: 16px;
+    font-weight: 500;
+}
 .pri-sec-tit{
     width: 600px;
     text-align: left;
@@ -83,6 +88,26 @@ main h1{
 }
 .pri-sec-img img{
     width: 300px;
+}
+.pincel-talleres{
+    margin-left: 10px;
+    animation-name: pen;
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+}
+@keyframes pen{
+    0%{
+        transform: rotateZ(8deg);
+
+    }
+    60%{
+        transform: rotateZ(-8deg) ;
+    }
+    100%{
+        transform: rotateZ(8deg);}
+}
+.list-talleres{
+    display: flex;
 }
 @media screen and (min-width:700px){
 .t-titulo-tall  p{
@@ -114,9 +139,12 @@ main h1{
  
     .pri-sec-tit h3{
         color:var(--cafemasoscuro-color);
-    
+        font-size: 16px;
     }
-   
+    .pri-sec-tit h3{
+        color:var(--cafemasoscuro-color);
+        font-size: 16px;
+    }
 }
 @media screen and (min-width:1000px){
 .t-titulo-tall p{
@@ -131,6 +159,14 @@ main h1{
     }
     .pri-sec-img img{
         width: 500px;
+    }
+    .pri-sec-tit h2{
+        font-size: 50px;
+        padding: 10px;
+    }
+    .pri-sec-tit h3{
+        color:var(--cafemasoscuro-color);
+        font-size: 23px;
     }
 }
 

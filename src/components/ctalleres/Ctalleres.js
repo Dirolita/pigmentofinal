@@ -6,6 +6,7 @@ import Input from '../cregistro/Input';
 import BannerT from './mitallerbaner.jpg';
 import "./Ctalleres.css";
 
+
 const Talleres =()=>{
   const [usuario, cambiarUsuario] = useState({campo: '', valido: null});
 	const [nombre, cambiarNombre] = useState({campo: '', valido: null});
@@ -85,6 +86,7 @@ const onSubmit =(e)=>{
      <div className='pri-sec-tit'>
            <h2>Conoce sobre nuestros talleres</h2>
            <h3>La creatividad, imaginación y sensibilidad artística son los elementos claves de nuestros talleres. Si deseas más información de nuestros horarios, costos y metodologías puedes llenar el siguiente formulario y te estaremos enviado toda la información correspondiente. </h3><br/>
+           <div className='list-talleres'>
            <ul>
                <li>Precenciales</li>
                <li>Virtuales</li>
@@ -92,6 +94,11 @@ const onSubmit =(e)=>{
                <li>Taller de arte para niños</li>
                <li>Talleres para adultos mayores</li>
            </ul>
+           <div className='pincel-talleres'>
+              <img src={require('./paintbrush.png')} width = "120px" 
+            />
+            </div>
+           </div>
     </div>
 
     </div>

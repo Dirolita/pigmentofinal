@@ -81,7 +81,7 @@ function Chome(){
     <section>
         <div class="i-titulo-sec">
             <h1><Link to="/productos" className="link">Productos</Link></h1>
-            <h3>"Un buen artista siempre usa las mejores herramientas"</h3>
+            <h3>"Un buen artista siempre usa las mejores herramientas"</h3><br/>
         </div>
         
         <div class="i-index-sec">
@@ -102,7 +102,7 @@ function Chome(){
     <section>
         <div class="i-titulo-sec">
             <h1><Link to="/talleres">Talleres</Link></h1>
-            <h3>"El aprendizaje continuo es el camino al éxito"</h3>
+            <h3>"El aprendizaje continuo es el camino al éxito"</h3><br/>
         </div>
         
         <div class="i-index-sec-talleres">
@@ -139,7 +139,7 @@ function Chome(){
         <section>
             <div class="i-titulo-sec">
                 <h1><a href="src/pages/galeria.html">Sobre Nosotros</a></h1>
-                <h3>"Conoce un poco de nuestro trabajo"</h3>
+                <h3>"Conoce un poco de nuestro trabajo"</h3><br/>
             </div>
             <div class="i-video">
                 <iframe width="320" height="215" src="https://www.youtube.com/embed/NdIjV1OHLWI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
