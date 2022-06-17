@@ -50,6 +50,7 @@ h3{
     color: var(--negro-color);
     text-align: center;
     color: var(--cafeoscuro-color) ;
+    background-color: white;
 }
 .g-card p{
     font-size: 20px;

@@ -105,6 +105,7 @@ header, body, footer{font-family: 'Baloo 2', cursive;
 }
 
 
+
 @media screen and (min-width:768px){
 
     .p-sections{
@@ -119,13 +120,10 @@ header, body, footer{font-family: 'Baloo 2', cursive;
         opacity: 0;
     }
     .sec-paints:hover h2, .sec-spatulas:hover h2, .sec-brushes:hover h2, .sec-canvas:hover h2{
-        opacity:1; 
+        background-color: beige;
         
     }
-    .sec-paints:hover, .sec-spatulas:hover, .sec-brushes:hover, .sec-canvas:hover{
-        opacity:0.7;  
-        
-    }
+  
     
     }
     

@@ -10,6 +10,7 @@
     padding: 0;
 }
 body{
+    
     font-family: 'Baloo 2', cursive;
 }
 .btn-primary{
@@ -139,7 +140,9 @@ font-size: 20px;
     width: 100%;
 }
 
-
+.trash-crud{
+    cursor: pointer;
+}
 
 
 @media screen and  (min-width: 768px){

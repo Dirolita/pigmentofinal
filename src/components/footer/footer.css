@@ -1,4 +1,11 @@
 /*------------------FOOTER-----------------------*/
+:root{
+    --negro-color:#191919;
+    --blanco-color:#ffffff;
+    --cafeoscuro-color:#572612;
+    --cafemasoscuro-color:#301309;
+    --amarillo-color: #F9D544; 
+ }
 footer{
    
     display: flex;
@@ -8,7 +15,7 @@ footer{
      width: max-content;
      color:var(--cafemasoscuro-color);
     background:rgb(221, 210, 210);
-     opacity: 80%;
+    
  }
  
  .footer-op{
@@ -46,9 +53,10 @@ footer{
  }
  .footer-form-input{
      padding: 5px;
-     width: 170px;
+     width: 190px;
      border: 0.5px solid #272727;
      margin-bottom: 5px;
+     border: 2px solid var(--cafeoscuro-color);
  }
  #footer-con-info h2{
      font-size: 12px;
@@ -70,20 +78,24 @@ footer{
      margin: 0;
  }
  .btn-enviar{
+
+    justify-self:flex-start;
+     color: var(--cafemasoscuro-color);
      font-family: 'Baloo 2', cursive;
-     font-size:14px ;
-     width: 80px;
-     border: 1px solid var(--cafemasoscuro-color);
-     padding: 2px;
-     font-weight: 300;
+     font-weight: 700;
+     font-size:15px ;
+     width: 140px;
+     padding: 5px;
+     border: none;
+     border-radius: 3px;
      background-color:var(--amarillo-color);
-     border-radius: 0.4em;
-     margin-left: 40px;
+     margin-left: 20px;
  }
  .texta{
      padding: 5px;
      font-family:'Baloo 2', cursive; 
-     font-size: 14px;
+     font-size: 16px;
+     border: 2px solid var(--cafeoscuro-color);
  }
  .iconos{
      display: flex;

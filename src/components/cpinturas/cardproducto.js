@@ -1,31 +1,56 @@
 import "./Cpinturas.css";
-import ModalPinturas from "./ModalPinturas"
+import ModalPinturas from "./ModalPinturas";
+import axios from 'axios';
+import { useEffect, useState } from 'react';
 
 
 
-function CardProduct(props){
+function CardProduct({producto}){
   
+  const url="http://localhost:5000/producto";
+
+   
+
+    const getData=async()=>{
+        const response=axios.get(url);
+        return response;
+    }
+    const[list,setList]=useState([]);
+    
+    const[upList,setUplist]=useState([false]);
+
+    useEffect(()=>{
+        getData().then((response)=>{
+            setList(response.data);
+          
+        })
+    },[upList])
+    console.log(list);
+
 return(
   <div>
-    <div className="p-card" id={props.p1}>
-    <img src={props.p2}/>
-    <h2>{props.p3}</h2>
-    <p>{props.p4}</p>
-    <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target={`#id${props.p1}`}>
+    <div className="p-card" id={producto.id}>
+    <img src={producto.image}/>
+    <h2>{producto.title}</h2>
+    <p>{producto.descip}</p>
+    <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target={`#id${producto.id}`}>
   VER
 </button>
 </div>
 <div>
-<ModalPinturas
-      pm1={`id${props.p1}`}
-        pm2={props.p2}
-        pm3={props.p3}
-        pm4={props.p4}
-        pm5={props.p5}
-        pm6={props.p6}
-        pm7={props.p7}
 
-/>
+      {
+        list.map((es, index,mid) => (
+
+          <ModalPinturas
+              key={index}
+              producto={es}
+              mid={`id${producto.id}`}
+          />
+      ))
+     }
+
+
 </div>
 </div>  
 );

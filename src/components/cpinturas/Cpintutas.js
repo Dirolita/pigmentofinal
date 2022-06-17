@@ -1,38 +1,53 @@
 import "./Cpinturas.css";
-import {getAll} from "./dataProductos"
+import axios from 'axios';
+import { useEffect, useState } from 'react';
 import CardProduct from "./cardproducto";
 
 function Cpinturas(){
-        const productos=getAll();
+        
     
+    const url="http://localhost:5000/producto";
+
+   
+
+    const getData=async()=>{
+        const response=axios.get(url);
+        return response;
+    }
+    const[list,setList]=useState([]);
+    
+    const[upList,setUplist]=useState([false]);
+
+    useEffect(()=>{
+        getData().then((response)=>{
+            setList(response.data);
+          
+        })
+    },[upList])
+    console.log(list);
+
 
     return(
         <div>
-        <div class="p-baner-pint">
+        <div className="p-baner-pint">
             
         </div>
-        <div class="p-titulo">
+        <div className="p-titulo">
             <h1>PINTURAS</h1>
             <h3>"La alta calidad de nuestro productos permitira que tu trabajo sea muy profesional"</h3>
         </div>
-        <section class="p-container">
-            {
-            productos.map(p=>(
-                    <CardProduct
-                    key={p.id}
-                    p1={p.id}
-                    p2={p.image}
-                    p3={p.title}
-                    p4={p.descip}
-                    p5={p.color}
-                    p6={p.price}
-                    />
-                ))
-                }
+        <section className="p-container">
+            
+                   {
+                      list.map((es, index) => (
 
-        
+                        <CardProduct
+                            key={index}
+                            producto={es}
+                        />
+                    ))
+                   }
 
-        
         </section>
         </div>
     )

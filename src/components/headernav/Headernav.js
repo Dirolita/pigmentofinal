@@ -1,6 +1,7 @@
 import React from 'react'; 
 import lupa from '../headernav/images/lupa.png';
 import menu from '../headernav/images/menu.png';
+import Cuenta from './images/user-account-solid-24.png';
 import './header.css';
 import {Link} from 'react-router-dom'; 
 
@@ -19,12 +20,11 @@ function Headernav(){
             <li class="item"><Link to="/galeria">Galeria</Link></li>
             <li class="item"><Link to="/productos">Productos</Link></li>
             <li class="item"><Link to="/talleres">Talleres</Link></li>
-            <li class="item">
-               <select class="tu-cuenta">
-                <option value="0" >Tu Cuenta</option>
-                <option value="1" ><Link to="/registro">Crear Cuenta</Link></option></select>
-                </li>
-            <li class="item"><input  type="text" placeholder="Buscar"/><img src={lupa}/></li>
+            <li class="item"><Link to="/registro">Registrate</Link></li>
+            <li class="item"><Link to="/registro">Login</Link></li>
+            <li class="item"><Link to="/crud"><img src={Cuenta}/></Link></li>
+              
+          
       
     </nav>
 </header>

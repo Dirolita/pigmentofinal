@@ -4,6 +4,7 @@ import {Ftitulo, Ftitulo2, Ftitulo3, Formulario,Label,ContenedorTerminos,Contene
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faExclamationTriangle} from '@fortawesome/free-solid-svg-icons';
 import Input from '../cregistro/Input';
+import "./Cregistro.css"
 
 const Registro =()=>{
   const [usuario, cambiarUsuario] = useState({campo: '', valido: null});
@@ -73,11 +74,9 @@ const onSubmit =(e)=>{
 }
 
   return ( 
-    <main>
-     <Ftitulo> 
-     <Ftitulo2>Mi cuenta</Ftitulo2>
-     <Ftitulo3>Mi Carrito</Ftitulo3>
-     </Ftitulo>
+    <main className='main-registro'>
+     
+	 <h1>Registro</h1><br/>
      
       <Formulario action="" onSubmit={onSubmit} > 
       

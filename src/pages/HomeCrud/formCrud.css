@@ -1,0 +1,37 @@
+:root{
+    --negro-color:#191919;
+    --blanco-color:#ffffff;
+    --cafeoscuro-color:#572612;
+    --cafemasoscuro-color:#301309;
+    --amarillo-color: #F9D544; 
+ }
+.formulario-stl{
+   
+    margin: 40px auto;
+    padding: 12px;
+    width: 80%;
+    border-radius: 18px;
+background: #eedc90;
+box-shadow:  19px 19px 0px #9d915f,
+             -19px -19px 0px #ffffc1;
+}
+.bt-gur-lst{
+     background-color: var(--cafeoscuro-color);
+    color: var(--amarillo-color);
+    padding: 5px;
+    width: 100px;
+    margin: 40px auto;
+    border: none; ;
+}
+.lnj-ver-lst{
+    margin-left: 30px;
+    background-color: var(--amarillo-color);
+    padding: 8px;
+    width: 200px;
+    color: var(--cafemasoscuro-color);
+    text-decoration: none;
+    font-weight: 600;
+}
+.lnj-ver-lst:hover{
+    color: #3a2305;
+}

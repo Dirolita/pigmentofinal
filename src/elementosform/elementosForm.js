@@ -11,7 +11,6 @@ display:grid;
 grid-template-columns:auto auto;
 padding:20px;
 gap:20px;
-
 @media screen and (max-width:500px){
     grid-template-columns:auto;
 }

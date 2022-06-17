@@ -14,6 +14,10 @@ import Brochas from './pages/productos/brochas';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Galeria from './pages/galeria/galeria';
 import PaRegistro from './pages/registro/Registro';
+import HomeCrud from './pages/HomeCrud/HomeCrud';
+import VistaCrud from './pages/HomeCrud/vistaCrudTabla';
+import FormProductos from './pages/HomeCrud/formularioIngreso';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
@@ -31,6 +35,9 @@ root.render(
             <Route path='/productos' element={<ProductosIndex />}></Route>
             <Route path='/galeria' element={<Galeria />}></Route>
             <Route path='/registro' element={<PaRegistro />}></Route>
+            <Route path='/crud' element={<HomeCrud />}></Route>
+            <Route path='/crud/vista' element={<VistaCrud />}></Route>
+            <Route path='crud/new' element={<FormProductos />}></Route>
         </Routes>
     </BrowserRouter>
     

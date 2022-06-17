@@ -16,7 +16,7 @@
 }
 
 main{
-    background-image: url(./talleresimgnes.png);
+   
     background-size: cover;
     width: 97%;
     padding: 40px;
@@ -36,7 +36,13 @@ main h1{
     width: 80vw;
   
 }
-
+.pri-sec-tit h2{
+    color: var(--cafeoscuro-color);
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    background-color: #F9D544;
+    padding: 10px;
+}
 .inte-moda{
     margin: 12px auto;
     display: flex;
@@ -61,7 +67,23 @@ main h1{
     color: var(--cafemasoscuro-color);
     border-radius: 25px;
 }
-
+ .pri-sec-tall{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    
+}
+.pri-sec-tit{
+    width: 600px;
+    text-align: left;
+}
+.pri-sec-tit h1{
+    text-align: left;
+}
+.pri-sec-img img{
+    width: 300px;
+}
 @media screen and (min-width:700px){
 .t-titulo-tall  p{
         font-size: 20px;
@@ -74,11 +96,41 @@ main h1{
         width: 80vw;
       
     }
+    .pri-sec-tall{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-bottom: 40px;
+    }
+    .pri-sec-tall{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-bottom: 40px;
+    }
+    .pri-sec-img img{
+        width: 400px;
+    }
+ 
+    .pri-sec-tit h3{
+        color:var(--cafemasoscuro-color);
+    
+    }
+   
 }
 @media screen and (min-width:1000px){
 .t-titulo-tall p{
         font-size: 20px;
         font-weight: 700;
+    }
+    .pri-sec-tall{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-bottom: 40px;
+    }
+    .pri-sec-img img{
+        width: 500px;
     }
 }
 
