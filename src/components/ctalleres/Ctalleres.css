@@ -82,6 +82,8 @@ main h1{
 .pri-sec-tit{
     width: 600px;
     text-align: left;
+    margin-right: 1px;
+    padding: 10px;
 }
 .pri-sec-tit h1{
     text-align: left;
@@ -121,6 +123,11 @@ main h1{
         width: 80vw;
       
     }
+    .pri-sec-tit{
+        width: 600px;
+        text-align: left;
+        margin-right: 10px;
+    }
     .pri-sec-tall{
         display: flex;
         flex-direction: row;
@@ -145,6 +152,7 @@ main h1{
         color:var(--cafemasoscuro-color);
         font-size: 16px;
     }
+
 }
 @media screen and (min-width:1000px){
 .t-titulo-tall p{
@@ -152,6 +160,7 @@ main h1{
         font-weight: 700;
     }
     .pri-sec-tall{
+        margin-right: 10px;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -167,6 +176,7 @@ main h1{
     .pri-sec-tit h3{
         color:var(--cafemasoscuro-color);
         font-size: 23px;
+        margin-right: 10px;
     }
 }
 

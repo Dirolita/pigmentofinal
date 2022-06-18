@@ -4,7 +4,7 @@
       "id": 1,
       "title": "AMARILLO CADMIO CLARO",
       "descip": "ACRILICO 140ML AMARILLO CADMIO CLARO 14204",
-      "price": "20000",
+      "price": "25000",
       "image": "https://raw.githubusercontent.com/Dirolita/Pigmento/test/src/assets/images/subproductos/pinturas/amarilcadmioclaro.png",
       "descripcion": "12000",
       "nombre": "AMARILLO CADMIO CLARO ",
@@ -28,18 +28,10 @@
       "image": "https://github.com/Dirolita/Pigmento/blob/test/src/assets/images/subproductos/pinturas/azulcobal.png?raw=true"
     },
     {
-      "id": 4,
-      "title": "AZUL THALO",
-      "descip": "ACRILICO 140ML AZUL THALO 14206",
-      "price": 15000,
-      "color": "#BF550B",
-      "image": "https://github.com/Dirolita/Pigmento/blob/test/src/assets/images/subproductos/pinturas/azulthalo.png?raw=true"
-    },
-    {
       "id": 5,
       "title": " BLANCO TITANEO ",
-      "descip": "ACRILICO 140ML BLANCO TITANEO 14207",
-      "price": 15000,
+      "descip": "ACRILICO 140ML BLANCO TITANEO 14556",
+      "price": "30000",
       "image": "https://github.com/Dirolita/Pigmento/blob/test/src/assets/images/subproductos/pinturas/blancoti.png?raw=true"
     },
     {
@@ -111,6 +103,13 @@
       "descip": "ACRILICO 140ML VIOLETA 14217",
       "price": "20000",
       "image": "https://github.com/Dirolita/Pigmento/blob/test/src/assets/images/subproductos/pinturas/violeta.png?raw=true"
+    },
+    {
+      "id": 16,
+      "title": "AMARILLO NAPOLES",
+      "descip": "ACRILICO 37 ML AMARILLO NAPOLES 13208",
+      "price": "15000",
+      "image": "http://www.elgranportaldela11.co/wp-content/uploads/2018/01/AM-NAPOL.png"
     }
   ]
 }
