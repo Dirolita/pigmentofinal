@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/pigmentofinal/static/css/main.1e8ca01b.css",
+    "main.js": "/pigmentofinal/static/js/main.b9df338c.js",
+    "static/media/pinturas1.jpg": "/pigmentofinal/static/media/pinturas1.f86fde5d2df075428487.jpg",
+    "static/media/espatulas productos.jpg": "/pigmentofinal/static/media/espatulas productos.a8ef696d65e78d968337.jpg",
+    "static/media/pinceles.jpg": "/pigmentofinal/static/media/pinceles.09efd68430ac453fb80e.jpg",
+    "static/media/banerespatulas.png": "/pigmentofinal/static/media/banerespatulas.9cc1cfdf681af9f2575f.png",
+    "static/media/fondomovil.jpg": "/pigmentofinal/static/media/fondomovil.f8c52b1a660aaa5dfc24.jpg",
+    "static/media/fondo.jpeg": "/pigmentofinal/static/media/fondo.d8e185933d4f42f955be.jpeg",
+    "static/media/baner1.png": "/pigmentofinal/static/media/baner1.fc92099cfaa6690ff7e3.png",
+    "static/media/fondoform.jpg": "/pigmentofinal/static/media/fondoform.353954ae66810dfbe6bd.jpg",
+    "static/media/baner3.png": "/pigmentofinal/static/media/baner3.6255eb401c71659fc9ed.png",
+    "static/media/baner4.png": "/pigmentofinal/static/media/baner4.62cbec73728ff350ab7d.png",
+    "static/media/banerpinturas2.png": "/pigmentofinal/static/media/banerpinturas2.24b4159758cdd8f198b3.png",
+    "static/media/banerlienzos.png": "/pigmentofinal/static/media/banerlienzos.6cb6310e63386118530f.png",
+    "static/media/Frame 2.png": "/pigmentofinal/static/media/Frame 2.4f03bd9dbe7fa4fc8967.png",
+    "static/media/mitallerbaner.jpg": "/pigmentofinal/static/media/mitallerbaner.9181f1741e0c3bddb7a3.jpg",
+    "static/media/indexgaleria1.png": "/pigmentofinal/static/media/indexgaleria1.3f8b7fe0002c4e0c849a.png",
+    "static/media/indexproductos2.png": "/pigmentofinal/static/media/indexproductos2.0ad80e35dbdbb1a68009.png",
+    "static/media/baner2.png": "/pigmentofinal/static/media/baner2.5bc86755738021e2627a.png",
+    "static/media/indexproductos3.png": "/pigmentofinal/static/media/indexproductos3.c2832823ac387c929cad.png",
+    "static/media/indextalleres2.png": "/pigmentofinal/static/media/indextalleres2.c0f44f96e0127364a312.png",
+    "static/media/1471669-imágen-3.jpg": "/pigmentofinal/static/media/1471669-imágen-3.995919b8e0915e5bafc0.jpg",
+    "static/media/indexproductos1.png": "/pigmentofinal/static/media/indexproductos1.38aaea9e279fba19ee40.png",
+    "static/media/indexgaleria2.png": "/pigmentofinal/static/media/indexgaleria2.d68030c36ae3c5a8f519.png",
+    "static/media/indextarlleres1.png": "/pigmentofinal/static/media/indextarlleres1.2f37205ef0cccad18b57.png",
+    "static/media/indexgaleria3.png": "/pigmentofinal/static/media/indexgaleria3.b257c6b70c8251c908eb.png",
+    "static/media/bellas-artes-e1576727074407-800x416.jpg": "/pigmentofinal/static/media/bellas-artes-e1576727074407-800x416.fb701703f6859a899627.jpg",
+    "static/media/lienzo2.jpg": "/pigmentofinal/static/media/lienzo2.40a30cea7304c44f8080.jpg",
+    "static/media/lienzoscaballete_18.png": "/pigmentofinal/static/media/lienzoscaballete_18.60a691a7cfc271bf4813.png",
+    "index.html": "/pigmentofinal/index.html",
+    "static/media/bandera.svg": "/pigmentofinal/static/media/bandera.d8f36acf50ebba7703df5e3300b145dc.svg",
+    "static/media/Line 1.svg": "/pigmentofinal/static/media/Line 1.d3a0200680aad417cbdf258e998176b1.svg",
+    "main.1e8ca01b.css.map": "/pigmentofinal/static/css/main.1e8ca01b.css.map",
+    "main.b9df338c.js.map": "/pigmentofinal/static/js/main.b9df338c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e8ca01b.css",
+    "static/js/main.b9df338c.js"
+  ]
+}
