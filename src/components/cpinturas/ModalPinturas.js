@@ -1,7 +1,7 @@
 
 function ModalPinturas({producto,mid}){
 return(
-    <div className="modal fade" id={mid} tabIndex={-1} aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div className="modal fade" id={`id${producto.id}`} tabIndex={-1} aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div className="modal-dialog">
             <div className="modal-content">
                 <div className="modal-header">

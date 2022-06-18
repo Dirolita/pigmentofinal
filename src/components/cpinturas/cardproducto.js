@@ -40,12 +40,12 @@ return(
 <div>
 
       {
-        list.map((es, index,mid) => (
+        list.map((es, index) => (
 
           <ModalPinturas
               key={index}
               producto={es}
-              mid={`id${producto.id}`}
+              
           />
       ))
      }
