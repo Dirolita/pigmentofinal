@@ -31,6 +31,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <BrowserRouter>
         <Routes>
+            <Route path='/pigmentofinal/' element={<Home />}></Route>
             <Route path='/' element={<Home />}></Route>
             <Route path='/home' element={<Home />}></Route>
             <Route path='/talleres' element={<Talleres />}></Route>
