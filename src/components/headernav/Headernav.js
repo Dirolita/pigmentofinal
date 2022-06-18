@@ -16,13 +16,13 @@ function Headernav(){
         <label for="chk-menu" class="btn-menu">
         <img src={menu}/>
         </label>
-            <li class="item"><Link to="/home" >Inicio</Link></li>
-            <li class="item"><Link to="/galeria">Galeria</Link></li>
-            <li class="item"><Link to="/productos">Productos</Link></li>
-            <li class="item"><Link to="/talleres">Talleres</Link></li>
-            <li class="item"><Link to="/registro">Registrate</Link></li>
-            <li class="item"><Link to="/login">Login</Link></li>
-            <li class="item"><Link to="/crud"><img src={Cuenta}/></Link></li>
+            <li class="item"><Link to="/home" className='lik-nav'>Inicio</Link></li>
+            <li class="item"><Link to="/galeria"  className='lik-nav'>Galeria</Link></li>
+            <li class="item"><Link to="/productos" className='lik-nav'>Productos</Link></li>
+            <li class="item"><Link to="/talleres" className='lik-nav'>Talleres</Link></li>
+            <li class="item"><Link to="/registro" className='lik-nav'>Regístrate</Link></li>
+            <li class="item"><Link to="/login" className='lik-nav'>Login</Link></li>
+            <li class="item"><Link to="/crud" className='lik-nav'><img src={Cuenta}/></Link></li>
               
           
       

@@ -47,6 +47,11 @@ width: 120px;
 
 
 }
+.lik-nav:hover{
+color: var(--cafemasoscuro-color);
+font-weight: 400;
+text-shadow: 1px 1px var(--amarillo-color);
+}
 .menu li, input:focus{
     border: none;
 }
